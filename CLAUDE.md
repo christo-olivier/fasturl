@@ -6,6 +6,9 @@ The documentation is located in the `docs/` directory as well as in the @README.
 ## Commands
 - `uvicorn fasturl.main:app` - Start the development server
 - `pytest ./tests` - Run tests
+- `uv add <package_name>` - Add a package to the project
+- `uv remove <package_name>` - Remove a package from the project
+- `uv sync` - Update all packages in the project
 
 ## Code Style
 The coding style is defined in @.rules/code_style.md
