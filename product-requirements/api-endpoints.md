@@ -23,7 +23,6 @@ These endpoints manage the core functionality of creating, retrieving, updating,
   * **GET request:**
     Returns a list of all link objects stored in the database.
 
-\<br\>
 
 #### **Endpoint:** `/api/v1/links/{id}`
 
@@ -64,7 +63,6 @@ These endpoints are for logging and retrieving visit data. As `visits` represent
   * **GET request:**
     Returns a list of all visit objects. For performance reasons in a production environment, this should be paginated.
 
-\<br\>
 
 #### **Endpoint:** `/api/v1/visits/{id}`
 
